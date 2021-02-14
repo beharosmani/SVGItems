@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+   <style>
+       .rot_Rect{
+           /*615px 472.5px*/
+           transform-origin: 575px 470.5px;
+           transform: rotate(45deg);
+       }
+       .rot_Rectangle{
+           /*630px 500.5px*/
+
+           transform-origin: 630px 540.5px;
+           transform: rotate(-45deg);
+       }
+       .rot_divide{
+           /*790px 482.5px*/
+        transform-origin: 820px 502.5px;
+           transform: rotate(-45deg);
+       }
+   </style>
+</head>
+<body>
+    
+    <svg width="1200" height="1200">
+        <rect x="500" y="100" width="400" height="500" fill="black" rx="30"/>
+        <rect x="555" y="150" width="290" height="90" fill="white" rx="20"/>
+        <rect x="555" y="350" width="120" height="25" fill="white" rx="15"/>
+        <rect x="602" y="302" width="25" height="120" fill="white" rx="15" />
+        <rect x="730" y="350" width="120" height="25" fill="white" rx="15"/>
+        <rect class="rot_Rect" x="570" y="460" width="120" height="25" fill="white" rx="15" />
+        <rect class="rot_Rectangle" x="580" y="495" width="120" height="25" fill="white" rx="15" />
+
+        <rect class="rot_divide" x="730" y="470" width="120" height="25" fill="white" rx="15"/>
+        <circle cx="760" cy="475" r="15" fill="white"/>
+        <circle cx="815" cy="540" r="15" fill="white"/>
+     
+
+    </svg>
+    
+</body>
+</html>
